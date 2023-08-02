@@ -1,13 +1,16 @@
 # Single-Multiplayer-BattleShip
-This project was made during the Northeastern Universiy 2023 Summer 1 semester for CS 3500 Object-Oriented Design. It is a modified version of the classic board game, Battleship, with both single and multiplayer modes. This modified game is called BattleSalvo. It was written using the MVC and Proxy design patterns
+This project was made during the Northeastern University 2023 Summer 1 semester for CS 3500 Object-Oriented Design. It is a modified version of the classic board game, Battleship, with both single and multiplayer modes. This modified game is called BattleSalvo. It was written using the MVC and Proxy design patterns
 
-###Single Player vs. Multiplayer
-Single-player mode is selected when no command line arguments are given. In this case, the user will be playing against a computer player.
-When a host and port number is provided, multiplayer is intiated. You will have to run the provided Server.jar file as well. In this case, the computer player would be playing against another person's computer player who is also connected to the same host and port.
-JSON is used to commmunicate with the server in multiplayer
+### Contributors
+Partnered with Rup Jaisinghani https://github.com/rupjaisinghani0904
+
+### Single Player vs. Multiplayer
+The single-player mode is selected when no command line arguments are given. In this case, the user will be playing against a computer player.
+When a host and port number are provided, multiplayer is initiated. You will have to run the provided Server.jar file as well. In this case, the computer player would be playing against another person's computer player who is also connected to the same host and port.
+JSON is used to communicate with the server in multiplayer
 
 ### Rules
-Board sizes can have height and width dimensions of any value between 6 and 15 (inclusive). Height and width dimensions do not need to match. The size of the board for each player are the same.
+Board sizes can have height and width dimensions of any value between 6 and 15 (inclusive). Height and width dimensions do not need to match. The size of the board for each player is the same.
 
 ### Ship Sizes
 - Carrier: Size 6
@@ -17,7 +20,7 @@ Board sizes can have height and width dimensions of any value between 6 and 15 (
 
 ### Fleet Size
 
-The total fleet size may not exceed the smaller board dimension, but must have at least one of each boat type. There be mutiple ships of the same type. Therefore, for a board of size 8x11, there should be no more than 8 total boats. Fleet size and boat types will be identical between players. 
+The total fleet size may not exceed the smaller board dimension but must have at least one of each boat type. There be multiple ships of the same type. Therefore, for a board of size 8x11, there should be no more than 8 total boats. Fleet size and boat types will be identical between players. 
 Ships are randomly placed. 
 
 ### Number of Shots
@@ -30,7 +33,7 @@ In BattleSalvo, both players select their shots (target locations), and the shot
 
 More specifically, the steps for the shooting stage of Salvo are laid out below:
 
-1. Both Players shoot their misslies 
+1. Both Players shoot their missiles 
 2. Both Players receive the shot that their opponent fired.
-3. Both Players update their ships accordingly, and communicate which of the incoming shots hit
+3. Both Players update their ships accordingly and communicate which of the incoming shots hit
 4. Repeat
