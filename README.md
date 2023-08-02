@@ -1,5 +1,5 @@
 # Single-Multiplayer-BattleShip
-This project was made during the Northeastern Universiy 2023 Summer 1 semester for CS 3500 Object-Oriented Design. It is a modified version of the classic board game, Battleship, with both single and multiplayer modes. This modified game is called BattleSalvo.
+This project was made during the Northeastern Universiy 2023 Summer 1 semester for CS 3500 Object-Oriented Design. It is a modified version of the classic board game, Battleship, with both single and multiplayer modes. This modified game is called BattleSalvo. It was written using the MVC and Proxy design patterns
 
 ###Single Player vs. Multiplayer
 Single-player mode is selected when no command line arguments are given. In this case, the user will be playing against a computer player.
